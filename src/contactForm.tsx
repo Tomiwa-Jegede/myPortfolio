@@ -37,7 +37,7 @@ export default function ContactForm() {
               Bgcolor="bg-primary100"
               Textcolor="text-primary5"
               type="submit"
-              Width="w-full"
+              DesktopWidth="w-full"
             >
               Submit
             </Button>

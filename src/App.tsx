@@ -10,7 +10,7 @@ function App() {
           <Route
             path="/"
             element={
-              <div className="border border-red-500 bg-black5 min-h-dvh overflow-hidden">
+              <div className="bg-black5 min-h-dvh overflow-hidden">
                 <Header
                   BgColor="bg-black75"
                   TextColor="text-black5"

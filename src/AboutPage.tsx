@@ -9,7 +9,7 @@ export default function AboutPage() {
   const navigate = useNavigate();
   return (
     <>
-      <section className="p-[32px] border-0 border-b-2 border-b-black75">
+      <section className="p-8 border-0 border-b-2 border-b-black75">
         <Header
           BgColor="bg-black5"
           TextColor="text-black100"
@@ -33,7 +33,7 @@ export default function AboutPage() {
               Textcolor="text-black100"
               Bgcolor="bg-primary5"
               onClick={() => navigate("/contact")}
-              Width="w-[228px]"
+              DesktopWidth="w-[228px]"
             >
               Contact Me <PhoneIcon className="h-5 w-5" />
             </Button>
